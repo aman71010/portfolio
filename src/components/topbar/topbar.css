@@ -1,8 +1,90 @@
+@import "../../styles.css";
+
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: darkblue;
+    background-color: white;
     position: fixed;
     top: 0;
     z-index: 3;
+    transition: all 1s ease;
+}
+
+.wrapper {
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    color: var(--mainColor);
+}
+
+.logo {
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+}
+
+.icon {
+    margin-right: 7px;
+}
+
+.itemcontainer {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.itemcontainer span {
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 32px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background-color: var(--mainColor);
+    transform-origin: left;
+    transition: all 2s ease;
+}
+
+.active {
+    background-color: var(--mainColor);
+    color: white;
+}
+
+.active .left {
+    color: white;
+}
+
+.active .itemcontainer span{
+    background-color: inherit;
+}
+
+.active .hamburger span:first-child {
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+.active .hamburger span:nth-child(2){
+    opacity: none;
+}
+
+.active .hamburger span:last-child {
+    background-color: white;
+    transform: rotate(-45deg);
 }
