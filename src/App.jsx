@@ -6,6 +6,7 @@ import Work from "./components/work/Work"
 import Portfolio from "./components/portfolio/Portfolio"
 import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
+import Menu from "./components/menu/Menu"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,11 +16,15 @@ function App() {
         menuOpen = {menuOpen}
         setMenuOpen = {setMenuOpen}
       />
+      <Menu 
+        menuOpen = {menuOpen}
+        setMenuOpen = {setMenuOpen}
+      />
       <div className="sections">
         <Intro />
         <Work />
-        <Portfolio />
         <Testimonials />
+        <Portfolio />
         <Contact />
       </div>
     </div>
