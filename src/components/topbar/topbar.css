@@ -52,6 +52,7 @@
     width: 32px;
     height: 25px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .hamburger span {

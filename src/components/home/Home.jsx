@@ -1,8 +1,8 @@
-import "./intro.css"
+import "./home.css"
 import { useEffect, useRef } from "react"
 import { init } from "ityped"
 
-export default function Intro() {
+export default function Home() {
     
     const textRef = useRef();
 
@@ -10,12 +10,12 @@ export default function Intro() {
         init(textRef.current, { 
             showCursor: true, 
             backDelay: 1000,
-            strings: ["Web Developer"] 
+            strings: ["Full Stack Web Developer", "Competitive Coder"] 
         })
     }, [])
 
     return (
-        <div className="intro" id="intro">
+        <div className="home" id="home">
             <div className="left">
                 <div className="imgContainer">
                     <img src="assets/man.png" alt="personal-pic" />
@@ -25,7 +25,7 @@ export default function Intro() {
                 <div className="wrapHeading">
                     <h2>Hi There, I'm</h2>
                     <h1>Aman Gupta</h1>
-                    <h3>Full Stack <span ref={textRef}></span></h3>
+                    <h3><span ref={textRef}></span></h3>
                 </div>
                 <a href="#portfolio">
                     <img src="assets/down.png" alt="downArrowImg"/>

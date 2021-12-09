@@ -1,4 +1,4 @@
-.intro {
+.home {
     background-color: white;
     width: 100vw;
     height: calc(100vh - 70px);
@@ -6,7 +6,7 @@
     display: flex;
 }
 
-.intro .left {
+.home .left {
     flex: 0.5;
     overflow: hidden;
 }
@@ -25,7 +25,7 @@
     height: 80%;
 }
 
-.intro .right {
+.home .right {
     flex: 0.5;
     position: relative;
 }

@@ -1,8 +1,8 @@
-import "./app.css"
+import "./App.css"
 import { useState } from "react";
 import Topbar from "./components/topbar/Topbar"
-import Intro from "./components/intro/Intro"
-import Work from "./components/work/Work"
+import Home from "./components/home/Home"
+import About from "./components/about/About"
 import Portfolio from "./components/portfolio/Portfolio"
 import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
@@ -21,8 +21,8 @@ function App() {
         setMenuOpen = {setMenuOpen}
       />
       <div className="sections">
-        <Intro />
-        <Work />
+        <Home />
+        <About />
         <Testimonials />
         <Portfolio />
         <Contact />
