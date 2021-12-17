@@ -1,6 +1,0 @@
-.testimonials {
-    background-color: yellow;
-    width: 100vw;
-    height: calc(100vh - 70px);
-    scroll-snap-align: start;
-}
