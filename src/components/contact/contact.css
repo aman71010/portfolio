@@ -26,7 +26,7 @@
 }
 
 .contact-heading {
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 form {
@@ -36,22 +36,22 @@ form {
 }
 
 input, textarea{
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 1.25rem;
+    padding: .625rem;
     border: 3px solid rgb(241, 236, 236);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: grey;
 }
 
 .contact-button {
-    width: 150px;
-    height: 40px;
+    width: 9.375rem;
+    height: 2.5rem;
     margin: auto;
     background-color: crimson;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,6 +64,31 @@ input, textarea{
 
 .c-para {
     color: green;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 1.25rem;
+    font-size: 1rem;
 }
+
+
+@media (max-width: 768px) {
+    .contact {
+        scroll-snap-align: none;
+        height: fit-content;
+        padding-bottom: 1.875rem;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .left-container {
+        margin-bottom: 1.25rem;
+    }
+
+}
+
+@media (max-width: 490px) {
+    form {
+        width: 65%;
+    }
+}
+
