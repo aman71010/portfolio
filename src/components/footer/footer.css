@@ -1,0 +1,19 @@
+#footer {
+    scroll-snap-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.copyright {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        scroll-snap-align: none;
+    }
+
+}

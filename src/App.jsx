@@ -7,6 +7,7 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Skills from "./components/skills/Skills"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu"
+import Footer from "./components/footer/footer";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
         <Skills />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
