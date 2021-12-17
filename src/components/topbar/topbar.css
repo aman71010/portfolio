@@ -1,4 +1,5 @@
 @import "../../styles.css";
+@import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
 
 .topbar {
     width: 100%;
@@ -12,7 +13,7 @@
 
 .wrapper {
     display: flex;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -24,25 +25,26 @@
 }
 
 .logo {
-    font-size: 35px;
+    font-family: 'Ruthie', cursive;
+    font-size: 2.25rem;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     color: inherit;
 }
 
 .icon {
-    margin-right: 7px;
+    margin-right: .4375rem;
 }
 
 .itemcontainer {
     display: flex;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 .itemcontainer span {
-    font-size: 18px;
-    font-weight: 500px;
+    font-size: 1.125rem;
+    font-weight: 500;
 }
 
 .hamburger {
@@ -88,4 +90,16 @@
 .active .hamburger span:last-child {
     background-color: white;
     transform: rotate(-45deg);
+}
+
+
+@media (max-width: 768px) {
+
+    .topbar {
+        height: fit-content;
+    }
+
+    .itemcontainer {
+        display: none;
+    }
 }
