@@ -1,0 +1,48 @@
+.product {
+    width: 30%;
+    height: 30vh;
+    border: 2px solid rgb(243, 242, 242);
+    margin: 1.25rem .625rem;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+
+.product-browser {
+    height: 25px;
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+    padding-left: 3px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.p-img {
+    width: 100%;
+    transition: all 3s ease;
+}
+
+.product:hover .p-img {
+    transform: translateY(-70%);
+}
+
+@media (max-width: 768px) {
+    .product {
+        width: 45%;
+        min-width: 250px;
+    }
+}
+
+  
+@media (max-width: 490px) {
+    .product {
+        width: 90%
+    }
+}
