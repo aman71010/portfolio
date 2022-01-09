@@ -89,35 +89,35 @@ export const skills = [
 export const products = [
     {
         id: 1,
+        img: "assets/ecommerce-img1.png",
+        link: "https://github.com/aman71010/Ecommerce-Mern"
+    },
+    {
+        id: 2,
         img: "assets/image1.png",
         link: "https://github.com/aman71010/Keeper-app"
     },
     {
-        id: 2,
+        id: 3,
         img: "assets/image2.png",
         link: "https://github.com/aman71010/TinDog-Website"
     },
     {
-        id: 3,
+        id: 4,
         img: "assets/image3.png",
         link: "https://github.com/aman71010/Todo"
     },
     {
-        id: 4,
+        id: 5,
         img: "assets/image4.png",
         link: "https://github.com/aman71010/Emojipedia"
     },
     {
-        id: 5,
+        id: 6,
         img: "assets/image6.png",
         link: "https://github.com/aman71010/Simon-Game"
-    },
-    {
-        id: 6,
-        img: "assets/image5.png",
-        link: "https://github.com/aman71010/Newsletter-Signup"
     },
 
 ]
 
-export const resumeLink = "https://drive.google.com/file/d/1v0VsIjGkiiRxRdVz2L4mpxgOuX-yEh9k/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/11ryoItAPcpPlPBydaPywZtbrRIT5LGlf/view?usp=sharing";
