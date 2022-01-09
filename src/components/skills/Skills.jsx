@@ -6,7 +6,7 @@ export default function Skills() {
         <div className="skills" id="skills">
             <div className="skills-wrapper">
                 <div className="s-left">
-                    <img className="skills-img" src="assets/SKILLS.PNG" alt="" />
+                    <img className="skills-img" src="assets/SKILLS.png" alt="" />
                 </div>
                 <div className="s-right">
                     <h1 className="s-heading">Skills</h1>
