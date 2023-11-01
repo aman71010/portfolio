@@ -120,4 +120,4 @@ export const products = [
 
 ]
 
-export const resumeLink = "https://drive.google.com/file/d/11ryoItAPcpPlPBydaPywZtbrRIT5LGlf/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/16yXoRwWZq2EgSb9rrt5DbLKCtxE9ne5v/view?usp=sharing";

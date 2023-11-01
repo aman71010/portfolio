@@ -20,7 +20,7 @@ export default function About() {
                 </div>
                 <div className="a-right">
                     <h1 className="r-heading">About Me</h1>
-                    <p className="r-para">I am a 3rd year student at National Institute of Technology Agatala, pursuing B.Tech in Electrical Engineering. 
+                    <p className="r-para">I graduated from National Institute of Technology Agartala, pursued B.Tech in Electrical Engineering. 
                     I’m proficient in HTML, CSS, JavaScript, and Bootstrap and have intermediate-level proficiency in ReactJs, Node.js and MongoDB.
                     </p>
                     <h1 className="r-heading">Education</h1>
@@ -28,7 +28,7 @@ export default function About() {
                         <SchoolIcon />
                         <div className="E-section-child">
                             <p className="para1">B.Tech - Electrical Engineering, 2023</p>
-                            <p className="para2">National Institute of Technology Agatala</p>
+                            <p className="para2">National Institute of Technology Agartala</p>
                         </div>
                     </div>
                     <div className="E-section">
